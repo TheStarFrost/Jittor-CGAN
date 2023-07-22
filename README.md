@@ -6,7 +6,6 @@
 
 
 ## 简介
-| 简单介绍项目背景、项目特点
 
 本项目包含了第三届计图挑战赛计图挑战热身赛比赛的代码实现。本项目的特点是：采用了CGAN方法对MNIST输入数据进行学习处理，
 得到了完成训练生成器和判别器，并用生成器生成了随机id以验证效果。
@@ -33,7 +32,6 @@ pip install -r requirements.txt
 该数据集较为简单，无需预处理
 
 ## 训练
-｜ 介绍模型训练的方法
 该模型较为简单，单卡即可
 训练执行如下命令：
 python CGAN.py
@@ -46,7 +44,6 @@ python CGAN.py
 测试集上的结果会自动生成并保存
 
 ## 致谢
-| 对参考的论文、开源库予以致谢，可选
 
 此项目基于论文 *A Style-Based Generator Architecture for Generative Adversarial Networks* 实现，部分代码参考了 [jittor-gan](https://github.com/Jittor/gan-jittor)。
 
